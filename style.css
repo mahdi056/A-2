@@ -158,3 +158,33 @@ body{
 }
 
 /* End of habit section */
+.parent-card{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    color: white;
+    height: 271px;
+    width: 900px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+    padding: 0 20px;
+
+
+}
+.run{
+    background-image: url(./images/run.jpg);
+    height: 212px;
+    width: 266px;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+/* End of section parent card */
