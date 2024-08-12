@@ -196,6 +196,54 @@ body{
     align-items: center;
     color: white;
     margin-top: 40px;
-    
+
     
 }
+
+.sc{
+    background-color: rgb(43, 43, 43);
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+.bmi-table{
+    border-collapse: collapse;
+    margin-top: 40px;
+
+}
+
+.bmi-table th, .bmi-table td{
+    border: 1px solid rgb(82, 81, 81);
+    padding: 10px;
+}
+
+.bmi-table th{
+    color: white;
+    font-weight: bold;
+    
+}
+
+.bmi-table td {
+        color: rgb(182, 180, 180);
+        font-size: 9px;
+}
+
+.calculate input{
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
+.calculate select {
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 5px ;
+    padding: 10px;
+}
+
+/* end of BMI section */
