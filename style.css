@@ -119,3 +119,42 @@ body{
 }
 
 /* End of banner section */
+
+.habit{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.images{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+
+.first{
+    text-align: center;
+    
+}
+.img-1st{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 1px solid white;
+}
+.second{
+    text-align: center;
+}
+
+.third{
+    text-align: center;
+}
+.fourth{
+    text-align: center;
+}
+
+/* End of habit section */
