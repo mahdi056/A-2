@@ -6,6 +6,9 @@ body{
     margin: 0;
     padding: 0;
 }
+.font-icon{
+    display: none;
+}
 .nav-bar{
     display: flex;
     height: 6rem;
@@ -15,7 +18,9 @@ body{
 
 .list{
     display: flex;
-   
+    width: 360px;
+    border: 1px solid rgb(58, 58, 58);
+    border-radius: 12px;
 }
 .list li a{
     text-decoration: none;
@@ -33,7 +38,7 @@ body{
     display: flex;
     justify-content: space-around;
     max-width: 1250px;
-   position: relative;
+    /* position: relative; */
     
     
     
@@ -47,6 +52,11 @@ body{
     margin-top: 10px;
 
 }
+.image-section {
+    position: relative;
+    
+}
+
 .image>img{
    position: absolute;
     
@@ -61,10 +71,7 @@ body{
     color: white;
 }
 
-.image-section {
-    position: relative;
-    max-width: 50%;
-}
+
 
 .background-image {
     width: 100%;
@@ -247,3 +254,286 @@ body{
 }
 
 /* end of BMI section */
+.idea{
+    color: white;
+    margin-top: 40px;
+
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.workout{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrk-1{
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+    margin-top: 20px;
+    border: 1px solid white;
+}
+.one{
+    text-align: center;
+}
+.two{
+    text-align: center;
+}
+.three{
+    text-align: center;
+}
+
+/* End of invented section */
+
+.meet{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+}
+.team{
+   display: flex;
+   justify-content: center;
+}
+.name{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: rgb(43, 43, 43);
+    width: 60%;
+    margin-top: 40px;
+    
+    
+}
+
+.img-1{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.trainer-1{
+    position: absolute;
+    top: 2390px;
+    left: 320px;
+}
+.trainer-2{
+    position: absolute;
+    top: 2390px;
+    left: 590px;
+}
+.trainer-3{
+   position: absolute;
+   top: 2390px;
+   left: 865px;
+}
+
+.trainer-4{
+    position: absolute;
+    top: 2600px;
+    left: 320px;
+
+}
+.trainer-5{
+    position: absolute;
+    top: 2600px;
+    left: 590px;
+}
+
+.trainer-6{
+    position: absolute;
+    top: 2600px;
+    left: 865px;
+}
+
+/* end of trainer section */
+.parent-foot{
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    color: white;
+    width: 60%;
+    border-bottom: 1px solid rgb(77, 76, 76);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.foot li{
+    margin-top: 10px;
+}
+
+.foot-2 li{
+    font-size: 12px;
+    color: rgb(182, 180, 180);
+    list-style: none;
+}
+
+.foot-3 li{
+    font-size: 12px;
+    color: rgb(182, 180, 180);
+    list-style: none;
+}
+
+.last{
+    color: rgb(182, 180, 180);
+    font-size: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: rgb(32, 32, 32);
+    margin-top: 60px;
+}
+
+
+/* Responsive  */
+
+@media screen and (max-width: 576px){
+    .list{
+        display: none;
+
+    }
+    .font-icon{
+        display: block;
+    }
+    .nav-bar{
+        justify-content: space-between;
+        margin: 0 10px;
+    }
+    /* End of navbar */
+    .banner{
+        flex-direction: column;
+    }
+    .free-videos {
+        margin: 112px -2px 0px 0px;
+    
+    }
+    .video-tutorial {
+        margin: 60px 250px 340px 90px;
+        display: flex;
+    }
+    .habit{
+        text-align: center;
+    }
+    .images{
+        flex-direction: column;
+       
+    }
+
+    .first{
+        margin-top: 10px;
+    }
+    .second{
+        margin-top: 10px;
+    }
+    .third{
+        margin-top: 10px;
+    }
+    .fourth{
+        margin-top: 10px;
+    }
+    .card{
+        flex-direction: column;
+        height: auto;
+    }
+    .run{
+        margin-top: 20px;
+    }
+
+    .content > .btn-primary{
+        padding: 5px 70px;
+    
+    }
+    .bmi{
+        width: 100%;
+        height: auto;
+    }
+    .bmi>h1{
+        font-size: large;
+        
+    }
+    .chart{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .calculate{
+        margin-top: 10px;
+    }
+    .calculate>button{
+        margin-bottom: 10px;
+        padding: 10px 60px;
+    }
+    .idea{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .sc{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .workout{
+       flex-direction: column;
+    }
+
+    .name-5{
+        display: none;
+    }
+    .name-6{
+        display: none;
+    }
+    .team{
+        width: 100%;
+    }
+    .name{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .trainer-1{
+        top: 4390px;
+        left: 100px;
+    }
+    .trainer-2{
+        top: 4590px;
+        left: 100px;
+    }
+    .trainer-3{
+        top: 4700px;
+        left: 100px;
+    }
+    .trainer-4{
+        top: 4910px;
+        left: 100px;
+    }
+    .foot{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .foot-2{
+        margin-top: 10px
+
+    }
+    .foot-3{
+        margin-top: 10px;
+    }
+
+
+}
