@@ -482,6 +482,7 @@ footer{
     }
     .calculate{
         margin-top: 10px;
+        width: 100%;
     }
     .calculate>button{
         margin-bottom: 10px;
