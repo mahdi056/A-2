@@ -243,13 +243,13 @@ body{
     background-color: rgb(151, 148, 148);
     border: 1px solid rgb(151, 148, 148);
     border-radius: 5px;
-    padding: 10px;
+    padding: 1.5%;
     margin-top: 5px;
 }
 .calculate select {
     background-color: rgb(151, 148, 148);
     border: 1px solid rgb(151, 148, 148);
-    padding: 10px;
+    padding: 1.5%;
 }
 
 /* end of BMI section */
@@ -485,6 +485,7 @@ footer{
         margin-top: 10px;
         width: 100%;
     }
+    
     .calculate>button{
         margin-bottom: 10px;
         padding: 10px 60px;
