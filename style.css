@@ -240,16 +240,15 @@ body{
 }
 
 .calculate input{
-    background-color: gray;
-    border: 1px solid gray;
+    background-color: rgb(151, 148, 148);
+    border: 1px solid rgb(151, 148, 148);
     border-radius: 5px;
     padding: 10px;
     margin-top: 5px;
 }
 .calculate select {
-    background-color: gray;
-    border: 1px solid gray;
-    border-radius: 5px ;
+    background-color: rgb(151, 148, 148);
+    border: 1px solid rgb(151, 148, 148);
     padding: 10px;
 }
 
@@ -313,6 +312,7 @@ body{
     background-color: rgb(43, 43, 43);
     width: 60%;
     margin-top: 40px;
+    position: relative;
     
     
 }
@@ -326,36 +326,36 @@ body{
 }
 .trainer-1{
     position: absolute;
-    top: 2390px;
-    left: 320px;
+    top: 38%;
+    left: 5%;
 }
 .trainer-2{
     position: absolute;
-    top: 2390px;
-    left: 590px;
+    top: 38%;
+    left: 38%;
 }
 .trainer-3{
    position: absolute;
-   top: 2390px;
-   left: 865px;
+   top: 38%;
+   left: 73%;
 }
 
 .trainer-4{
     position: absolute;
-    top: 2600px;
-    left: 320px;
+    top: 88%;
+    left: 5%;
 
 }
 .trainer-5{
     position: absolute;
-    top: 2600px;
-    left: 590px;
+    top: 88%;
+    left: 38%;
 }
 
 .trainer-6{
     position: absolute;
-    top: 2600px;
-    left: 865px;
+    top: 88%;
+    left: 73%;
 }
 
 /* end of trainer section */
@@ -419,6 +419,11 @@ footer{
     /* End of navbar */
     .banner{
         flex-direction: column;
+        width: 100%;
+    }
+    .banner h1{
+        font-size: 2em;
+        width: 100%;
     }
     .free-videos {
         margin: 112px -2px 0px 0px;
@@ -463,9 +468,12 @@ footer{
     .bmi{
         width: 100%;
         height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
     }
     .bmi>h1{
-        font-size: large;
+        font-size: 30px;
+        
         
     }
     .chart{
@@ -494,33 +502,36 @@ footer{
        flex-direction: column;
     }
 
-    .name-5{
-        display: none;
-    }
-    .name-6{
-        display: none;
-    }
+   
     .team{
         width: 100%;
     }
     .name{
         grid-template-columns: repeat(1,1fr);
     }
-    .trainer-1{
-        top: 4390px;
-        left: 100px;
+    .name-1{
+        display: none;
     }
+    .name-4{
+        display: none;
+    }
+    
     .trainer-2{
-        top: 4590px;
-        left: 100px;
+        top: 18%;
+        left: 8%;
     }
     .trainer-3{
-        top: 4700px;
-        left: 100px;
+        top: 44%;
+        left: 8%;
     }
-    .trainer-4{
-        top: 4910px;
-        left: 100px;
+  
+    .trainer-5{
+        top: 70%;
+        left: 8%;
+    }
+    .trainer-6{
+        top: 95%;
+        left: 8%;
     }
     .foot{
         flex-direction: column;
